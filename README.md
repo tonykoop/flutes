@@ -1,6 +1,6 @@
 # Flutes — Engineering Documentation for Native American Style Wooden Flutes
 
-> *50+ Native American style wooden flutes built between roughly 2018 and 2021, plus the parametric design table that produced them and the build registry that tracked them.*
+> *150+ Native American style wooden flutes built between roughly 2018 and 2021, plus the parametric design table that produced them and the build registry that tracked them.*
 
 ![Hero photo](images/00-hero-flutes.jpg)
 *(placeholder — drop in a finished-instrument photo or a fan-out of multiple flutes)*
@@ -12,7 +12,7 @@ Engineering documentation for a multi-year personal practice of building **Nativ
 This repository combines four threads:
 
 1. **A parametric design table** ([`design-table/flute-dimensions-parametric.xlsx`](design-table/flute-dimensions-parametric.xlsx)) covering flutes from **G3 to A4** (and beyond), with formulas that derive every build dimension — bore ID, wall thickness, hole positions, hole diameters, blank dimensions, board feet of wood — from a single input: the target fundamental note. Built around the canonical NAF pentatonic-minor hole spacing (3-2-2-3-2 semitones).
-2. **A build registry** of **50+ serial-numbered flutes** I've made, recording wood species, key, dimensional measurements, failure modes, and final build status.
+2. **A build registry** of **150+ serial-numbered flutes** I've made, recording wood species, key, dimensional measurements, failure modes, and final build status.
 3. **CAD geometry** for the body, the slow-air chamber, the nest, the bird/fetish block, and the cutting jigs.
 4. **Lineage:** the build methodology was learned from the **[Blue Bear Flutes](https://www.youtube.com/@bluebearflutes)** YouTube channel and developed forward from there into a parametric system.
 
@@ -71,7 +71,7 @@ The `Built` sheet of the workbook tracks every flute I've made by serial number.
 
 Patterns from the registry as of last update:
 
-- **~50+ flutes** documented across the build sheet (numbers 001 through ~050 with extensions beyond).
+- **150+ flutes** documented across the build sheet (numbers 001 through 153 at last update).
 - **Wood species** explored: White Oak, Pine, Mahogany, Hard Maple, Western Red Cedar, Black Walnut, Brazilian Walnut, Ambrosia Maple, Birch, Poplar, Oak.
 - **Keys** covered: F4, Gb4, G4, Ab4, A4, Bb4, B4, C5, Db5, D5, Eb5, E5 — most of the playable middle range.
 - **Failure modes** logged honestly: *"Death on the Router," "Exploded on the lathe, bark inclusion," "Failed Quality Control," "TSH too big," "cut into signature."* Engineering yield was a real consideration; the registry is what let me see which wood/key combinations were durable and which weren't.
