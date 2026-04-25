@@ -12,7 +12,7 @@ Engineering documentation for a multi-year personal practice of building **Nativ
 This repository combines four threads:
 
 1. **A parametric design table** ([`design-table/flute-dimensions-parametric.xlsx`](design-table/flute-dimensions-parametric.xlsx)) covering flutes from **G3 to A4** (and beyond), with formulas that derive every build dimension — bore ID, wall thickness, hole positions, hole diameters, blank dimensions, board feet of wood — from a single input: the target fundamental note. Built around the canonical NAF pentatonic-minor hole spacing (3-2-2-3-2 semitones).
-2. **A build registry** of **50+ serial-numbered flutes** I've made, recording wood species, key, recipient, dimensional measurements, failure modes, and final disposition.
+2. **A build registry** of **50+ serial-numbered flutes** I've made, recording wood species, key, dimensional measurements, failure modes, and final build status.
 3. **CAD geometry** for the body, the slow-air chamber, the nest, the bird/fetish block, and the cutting jigs.
 4. **Lineage:** the build methodology was learned from the **[Blue Bear Flutes](https://www.youtube.com/@bluebearflutes)** YouTube channel and developed forward from there into a parametric system.
 
@@ -67,7 +67,7 @@ Both `CNC Flute Dimensions` (designed for CNC-machined blanks, very precise) and
 
 ## The build registry
 
-The `Built` sheet of the workbook tracks every flute I've made by serial number. Columns include: number, price, owner, wood species, key, true-sound-hole width (TSH), track length, nest width, fetish requirement, notes, finished long chamber length, hole pattern reference, date glued, date routered, plus several more.
+The `Built` sheet of the workbook tracks every flute I've made by serial number. Engineering columns include: number, wood species, key, true-sound-hole width (TSH), track length, nest width, fetish requirement, finished long chamber length, hole pattern reference, date glued, date routered. Customer and gift-recipient information is kept private and is not included in the public version of this registry.
 
 Patterns from the registry as of last update:
 
@@ -75,7 +75,7 @@ Patterns from the registry as of last update:
 - **Wood species** explored: White Oak, Pine, Mahogany, Hard Maple, Western Red Cedar, Black Walnut, Brazilian Walnut, Ambrosia Maple, Birch, Poplar, Oak.
 - **Keys** covered: F4, Gb4, G4, Ab4, A4, Bb4, B4, C5, Db5, D5, Eb5, E5 — most of the playable middle range.
 - **Failure modes** logged honestly: *"Death on the Router," "Exploded on the lathe, bark inclusion," "Failed Quality Control," "TSH too big," "cut into signature."* Engineering yield was a real consideration; the registry is what let me see which wood/key combinations were durable and which weren't.
-- **Dispositions** ranged from family Christmas gifts (2019, 2020) through art-fair sales (Minnehaha Art Fair, July 2021) to in-stock inventory and learning-experience builds.
+- **Dispositions** ranged from gifts to art-fair sales to in-stock inventory and learning-experience builds — recipient details are kept private.
 
 ## Engineering challenges this repository documents
 
@@ -103,7 +103,7 @@ The build methodology in this repository was learned primarily from the **[Blue 
 
 - **The engineering question** — does a parametric design table let you reliably build flutes in tune across multiple wood species and a wide key range? The build registry says: yes, *bounded by* yield. Improving the table's predictions is the iterative loop the table itself enables.
 - **The portfolio frame** — for engineers and recruiters: this repository documents an ongoing engineering-grade craft practice. The parametric table is a working SolidWorks-adjacent design tool; the build registry is the production data that validated it; the failure-mode column is the honest engineering-yield record. All from one personal practice spanning ~3+ years.
-- **The personal frame** — these flutes have been Christmas gifts, art-fair sales, family heirlooms, and personal instruments. The repo is also a record of that.
+- **The personal frame** — these flutes have been gifts, art-fair sales, family heirlooms, and personal instruments. The people who received them are not named in this repository.
 
 ## License
 
