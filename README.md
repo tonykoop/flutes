@@ -3,7 +3,7 @@
 > *150+ Native American style wooden flutes built between roughly 2018 and 2021, plus the parametric design table that produced them and the build registry that tracked them.*
 
 ![Hero photo](images/00-hero-flutes.jpg)
-*(placeholder — drop in a finished-instrument photo or a fan-out of multiple flutes)*
+*A fan-out of finished Native American style wooden flutes across multiple wood species, keys, bird/fetish block styles, and lacing details — the production outcome of the parametric design table and build registry documented below.*
 
 ## What this is
 
@@ -11,7 +11,7 @@ Engineering documentation for a multi-year personal practice of building **Nativ
 
 This repository combines four threads:
 
-1. **A parametric design table** ([`design-table/flute-dimensions-parametric.xlsx`](design-table/flute-dimensions-parametric.xlsx)) covering flutes from **G3 to A4** (and beyond), with formulas that derive every build dimension — bore ID, wall thickness, hole positions, hole diameters, blank dimensions, board feet of wood — from a single input: the target fundamental note. Built around the canonical NAF pentatonic-minor hole spacing (3-2-2-3-2 semitones).
+1. **A parametric design table** ([`design-table/flute-dimensions-parametric.xlsx`](design-table/flute-dimensions-parametric.xlsx)) covering flutes from **F4 to E5**, with formulas that derive every build dimension — bore ID, wall thickness, hole positions, hole diameters, blank dimensions, board feet of wood — from a single input: the target fundamental note. Built around the canonical NAF pentatonic-minor hole spacing (3-2-2-3-2 semitones).
 2. **A build registry** of **150+ serial-numbered flutes** I've made, recording wood species, key, dimensional measurements, failure modes, and final build status.
 3. **CAD geometry** for the body, the slow-air chamber, the nest, the bird/fetish block, and the cutting jigs.
 4. **Lineage:** the build methodology was learned from the **[Blue Bear Flutes](https://www.youtube.com/@bluebearflutes)** YouTube channel and developed forward from there into a parametric system.
@@ -149,7 +149,7 @@ flutes/
 | Repo description, license, gitignore | ✓ done |
 | Parametric design table | ✓ committed (the engineering core) |
 | Build registry summary | ✓ summarized in this README |
-| Hero photos | forthcoming |
+| Hero photos | ✓ done |
 | Cultural attribution | ✓ done |
 | CAD — body geometry | not yet committed (SolidWorks access pending) |
 | CAD — nest + fetish | not yet committed |
