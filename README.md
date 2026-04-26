@@ -77,7 +77,13 @@ Patterns from the registry as of last update:
 - **Failure modes** logged honestly: *"Death on the Router," "Exploded on the lathe, bark inclusion," "Failed Quality Control," "TSH too big," "cut into signature."* Engineering yield was a real consideration; the registry is what let me see which wood/key combinations were durable and which weren't.
 - **Dispositions** ranged from gifts to art-fair sales to in-stock inventory and learning-experience builds — recipient details are kept private.
 
+![A bundle of finished Native American style flutes across multiple wood species](images/IMG_20200211_193500.jpg)
+*A representative bundle of finished flutes — multiple wood species visible (purpleheart, walnut, maple, cedar, oak), various keys, all hand-built to the parametric design table specs.*
+
 ## Engineering challenges this repository documents
+
+![Routing the slow-air-chamber profile on a flute body](images/20200121_170159.jpg)
+*In the shop with the plunge router — cutting the slow-air-chamber and true-sound-hole geometry into a flute body. The routing fixture is what makes the SAC and TSH cuts repeatable across builds.*
 
 **1. Two-chamber acoustic tuning.** Unlike a single-chamber instrument (didgeridoo, recorder), the NAF has air paths that interact in the SAC → flue → TSH → playing-chamber sequence. The fundamental of the playing chamber depends on the Long Chamber's effective length, but the playing *response* (how much breath pressure produces clean tone) depends on the SAC, flue, and block geometry. The parametric table captures the dimensional rules; the build registry captures what worked.
 
