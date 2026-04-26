@@ -34,7 +34,12 @@ The split-chamber design is what distinguishes the NAF from a Western fipple flu
 
 ## The parametric design table
 
-The single most engineering-heavy artifact in this repository is the parametric design table — a spreadsheet that takes a target fundamental note as input and computes every dimension required to build a flute that plays in tune. Inputs are listed in column A, calculated/tabulated values in column G:
+The single most engineering-heavy artifact in this repository is the parametric design table — a spreadsheet that takes a target fundamental note as input and computes every dimension required to build a flute that plays in tune.
+
+![Screenshot of the parametric flute design table — keys F4 through E5 as columns, three colored bands of rows: pentatonic-minor scale frequencies, user-set inputs, and derived/calculated dimensions](design-table/flute-design-table.png)
+*The full design table at a glance. **Columns** are target keys (piano key numbers 38–54, i.e. F4 through E5) — pick the column for the flute you want to build. **Rows** are organized into three colored bands: the **beige Pentatonic Minor Scale** band at the top tabulates the fundamental and the six hole frequencies (the canonical **3-2-2-3-2** semitone pattern); the **green User-Selected Inputs & Variables** band in the middle is where you set mouthpiece/chamber/bore/wall/flue/hole-diameter values; and the **red Calculated/Tabulated** band at the bottom derives blank dimensions, board feet of wood, nest position and depth, hole-to-hole spacings, and the K1/K2 acoustic-length corrections that close the loop on the tuning. Change one cell in the green band and the entire red band recomputes — that's the engineering core. The full workbook with formulas live is at [`design-table/flute-dimensions-parametric.xlsx`](design-table/flute-dimensions-parametric.xlsx).*
+
+Inputs are listed in column A, calculated/tabulated values in column G:
 
 **User-set variables (per key):**
 
