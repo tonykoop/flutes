@@ -18,6 +18,8 @@ This repository combines four threads:
 
 Sister project to [`djembe`](https://github.com/tonykoop/djembe), [`dundun`](https://github.com/tonykoop/dundun), [`didgeridoo`](https://github.com/tonykoop/didgeridoo), and [`ashiko-drum-workshop`](https://github.com/tonykoop/ashiko-drum-workshop).
 
+Computational counterpart: the Wolfram Summer School notebook **[`Properties of a Native American Flute.nb`](https://github.com/tonykoop/WSS-2019/tree/main/Homework/Final%20Submission)** in [`WSS-2019`](https://github.com/tonykoop/WSS-2019), where the same instrument family gets treated as a computational essay rather than a shop-and-build archive.
+
 ## Cultural attribution
 
 Native American flutes hold deep spiritual and cultural significance in many Indigenous communities of North America, with traditional roles in courtship, ceremony, healing, and storytelling. As a non-Indigenous maker, the instruments I build are more accurately termed **"Native American style flutes"** (sometimes NAF or NASF) — instruments inspired by, learned in dialogue with, and built in respect for the tradition, but not part of it. The methods documented here are publicly-available craft and engineering knowledge passed forward from contemporary makers to me; the deeper cultural practice belongs to the Indigenous communities from whom the instrument originates.
@@ -156,4 +158,4 @@ flutes/
 | CAD — jigs | not yet committed |
 | Yield analysis from build registry | forthcoming |
 
-A repository in motion, not a finished portfolio piece — but with the most empirical data of any of my instrument repositories.
+Living document — the empirical core is already here; CAD exports and yield-analysis follow-ons are the main remaining additions.
