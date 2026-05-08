@@ -1,0 +1,19 @@
+X:1
+T:Pentatonic Interval Drill — A-tuned 6-hole NAF
+C:Tony Koop / sheet-music skill (warmup)
+S:Original — MIT-licensed within sheet-music repo
+M:4/4
+L:1/4
+Q:1/4=72
+K:Am
+H:Pentatonic 2nds, 3rds, and 4ths up the scale. Builds the embouchure
+H:flexibility you'll need for the songbook's wider intervals.
+H:Pitches: A4, C5, D5, E5, G5, A5.
+% 2nds (each scale step alternated with the next)
+A c A c | c d c d | d e d e | e g e g | g a g a |
+% 3rds (skipping a scale step)
+A d A d | c e c e | d g d g | e a e a |
+% 4ths
+A e A e | c g c g | d a d a |
+% Octave
+A a A a |]

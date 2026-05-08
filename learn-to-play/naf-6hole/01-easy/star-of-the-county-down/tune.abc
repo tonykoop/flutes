@@ -1,0 +1,27 @@
+X:1
+T:Star of the County Down
+C:Trad. Irish (melody from the "Dives and Lazarus" / "Kingsfold" family,
+C:Petrie Collection 1855; lyrics by Cathal MacGarvey, c.1900)
+S:Public domain (US, pre-1929)
+M:4/4
+L:1/4
+Q:1/4=84
+K:Am
+H:The melody belongs to a much older Irish/English modal family —
+H:"Dives and Lazarus," "Kingsfold," "The Star of the County Down" all
+H:share the same backbone, and Vaughan Williams collected versions in
+H:the early 1900s. The bones are pre-1855 and unambiguously PD.
+H:Originally dorian. This catalog entry simplifies to A minor pentatonic
+H:so the tune deposits cleanly onto an A-tuned 6-hole NAF (range A4-D6).
+H:Pitches: A4, C5, D5, E5, G5, A5. AABB form.
+H:For instruments that can play the dorian 6th (kena half-hole, duduk,
+H:violin, harp), prefer the dorian variant in v0.2.
+% A section (verse)
+A2 c d | e2 d c | A2 c d | e3 z |
+A2 c d | e2 g a | g e d c | A4 |
+% A section repeat
+A2 c d | e2 d c | A2 c d | e3 z |
+A2 c d | e2 g a | g e d c | A4 |
+% B section (refrain — climbs to upper tonic)
+g2 a g | e2 d c | d2 e g | a3 z |
+g2 e d | c2 A c | d2 c A | A4 |]

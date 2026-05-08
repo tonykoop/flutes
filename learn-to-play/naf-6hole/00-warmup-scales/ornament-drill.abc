@@ -1,0 +1,19 @@
+X:1
+T:NAF Ornament Drill — Simple Grace
+C:Tony Koop / sheet-music skill (warmup)
+S:Original — MIT-licensed within sheet-music repo
+M:4/4
+L:1/4
+Q:1/4=64
+K:Am
+H:Practice the single grace-note ornament used in the songbook's
+H:original tune Pre-Dawn Field. The grace is one scale step above the
+H:principal — slip into the principal *just before* the beat, then
+H:let the principal ring.
+H:Per references/flute-family.md NAF rules: zero or one ornament per
+H:phrase. This drill exists so the one ornament feels easy when you
+H:reach it.
+% Plain (no grace)
+A4 | c4 | d4 | e4 | g4 | a4 |
+% With grace one step above
+{c}A4 | {d}c4 | {e}d4 | {g}e4 | {a}g4 | {c'}a4 |]

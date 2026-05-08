@@ -1,0 +1,23 @@
+X:1
+T:Twinkle Twinkle Little Star
+C:Trad. (melody from W. A. Mozart, "Ah! vous dirai-je, maman", 1781)
+S:Public domain (US, pre-1929)
+M:4/4
+L:1/4
+Q:1/4=80
+K:Am
+H:Arranged for the A-tuned 6-hole NAF (range A4-D6).
+H:The canonical melody (in C major, sourced from
+H:catalog/public-domain/nursery/twinkle-twinkle/) drops F naturally
+H:when re-keyed to A minor pentatonic. C→A tonic shift; F passing
+H:tones substituted with adjacent G or E.
+H:Pitches: A4, C5, D5, E5, G5, A5. Three 4-bar phrases.
+H:In `02-intermediate` rather than `01-easy` because the wider
+H:intervals (A→g, c→a) push above the simple conjunct motion of the
+H:easy tunes.
+A2 A2 e2 e2 | g2 g2 e4 |
+d2 d2 c2 c2 | A2 A2 A4 |
+e2 e2 d2 d2 | c2 c2 A4 |
+e2 e2 d2 d2 | c2 c2 A4 |
+A2 A2 e2 e2 | g2 g2 e4 |
+d2 d2 c2 c2 | A2 A2 A4 |]

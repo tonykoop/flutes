@@ -1,0 +1,24 @@
+X:1
+T:Simple Gifts
+C:Joseph Brackett, 1848 (Shaker dance song)
+S:Public domain (US, pre-1929)
+M:4/4
+L:1/8
+Q:1/4=104
+K:Am
+H:Arranged for the A-tuned 6-hole NAF (range A4-D6).
+H:The canonical melody (in F major, sourced from
+H:catalog/public-domain/appalachian/simple-gifts/) is transposed and
+H:re-keyed to A minor pentatonic. F→A is the tonic shift; the melody's
+H:characteristic 5-2-1 leap is preserved as g→d→A. The original B-flat
+H:passing tones (rare in the source) drop out cleanly.
+H:Pitches: A4, C5, D5, E5, G5, A5. AABA form, 16 bars.
+H:Brisker than the easy tunes — Q:1/4=104 keeps the dance lift.
+% A
+c2 c d e2 e2 | c2 e2 g2 e2 | d2 c2 A2 A2 | A4 A2 z2 |
+% A
+c2 c d e2 e2 | c2 e2 g2 e2 | d2 c2 A2 A2 | A4 A2 z2 |
+% B
+e2 e2 g2 e2 | d2 c2 A2 A2 | A2 c2 d2 e2 | c4 A2 z2 |
+% A
+c2 c d e2 e2 | c2 e2 g2 e2 | d2 c2 A2 A2 | A4 A2 z2 |]

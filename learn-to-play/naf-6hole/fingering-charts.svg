@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 274" role="img" aria-label="Fingering chart for naf-6hole">
+<title>Fingering chart -- naf-6hole</title>
+<style>
+.label { font: 12px Inter, sans-serif; fill: #2A2A2A; }
+.scheme { font: 10px Inter, sans-serif; fill: #888; }
+.body  { fill: none; stroke: #2A2A2A; stroke-width: 1.5; }
+.closed { fill: #2A2A2A; stroke: #2A2A2A; }
+.open   { fill: #FFFFFF; stroke: #2A2A2A; }
+.unknown { fill: #FFD8D8; stroke: #C44; stroke-dasharray: 3 2; }
+</style>
+<text x="16" y="24" class="scheme">scheme: naf-6hole</text>
+<text x="46.0" y="38" class="label" text-anchor="middle">A4</text>
+<rect x="28" y="46" width="36" height="196" rx="8" class="body"/>
+<circle cx="46.0" cy="64.0" r="6" class="closed"/>
+<circle cx="46.0" cy="96.0" r="6" class="closed"/>
+<circle cx="46.0" cy="128.0" r="6" class="closed"/>
+<circle cx="46.0" cy="160.0" r="6" class="closed"/>
+<circle cx="46.0" cy="192.0" r="6" class="closed"/>
+<circle cx="46.0" cy="224.0" r="6" class="closed"/>
+<text x="106.0" y="38" class="label" text-anchor="middle">C5</text>
+<rect x="88" y="46" width="36" height="196" rx="8" class="body"/>
+<circle cx="106.0" cy="64.0" r="6" class="closed"/>
+<circle cx="106.0" cy="96.0" r="6" class="closed"/>
+<circle cx="106.0" cy="128.0" r="6" class="closed"/>
+<circle cx="106.0" cy="160.0" r="6" class="closed"/>
+<circle cx="106.0" cy="192.0" r="6" class="closed"/>
+<circle cx="106.0" cy="224.0" r="6" class="open"/>
+<text x="166.0" y="38" class="label" text-anchor="middle">D5</text>
+<rect x="148" y="46" width="36" height="196" rx="8" class="body"/>
+<circle cx="166.0" cy="64.0" r="6" class="closed"/>
+<circle cx="166.0" cy="96.0" r="6" class="closed"/>
+<circle cx="166.0" cy="128.0" r="6" class="closed"/>
+<circle cx="166.0" cy="160.0" r="6" class="closed"/>
+<circle cx="166.0" cy="192.0" r="6" class="open"/>
+<circle cx="166.0" cy="224.0" r="6" class="open"/>
+<text x="226.0" y="38" class="label" text-anchor="middle">E5</text>
+<rect x="208" y="46" width="36" height="196" rx="8" class="body"/>
+<circle cx="226.0" cy="64.0" r="6" class="closed"/>
+<circle cx="226.0" cy="96.0" r="6" class="closed"/>
+<circle cx="226.0" cy="128.0" r="6" class="closed"/>
+<circle cx="226.0" cy="160.0" r="6" class="open"/>
+<circle cx="226.0" cy="192.0" r="6" class="open"/>
+<circle cx="226.0" cy="224.0" r="6" class="open"/>
+<text x="286.0" y="38" class="label" text-anchor="middle">G5</text>
+<rect x="268" y="46" width="36" height="196" rx="8" class="body"/>
+<circle cx="286.0" cy="64.0" r="6" class="closed"/>
+<circle cx="286.0" cy="96.0" r="6" class="closed"/>
+<circle cx="286.0" cy="128.0" r="6" class="open"/>
+<circle cx="286.0" cy="160.0" r="6" class="open"/>
+<circle cx="286.0" cy="192.0" r="6" class="open"/>
+<circle cx="286.0" cy="224.0" r="6" class="open"/>
+<text x="346.0" y="38" class="label" text-anchor="middle">A5</text>
+<rect x="328" y="46" width="36" height="196" rx="8" class="body"/>
+<circle cx="346.0" cy="64.0" r="6" class="open"/>
+<circle cx="346.0" cy="96.0" r="6" class="open"/>
+<circle cx="346.0" cy="128.0" r="6" class="open"/>
+<circle cx="346.0" cy="160.0" r="6" class="open"/>
+<circle cx="346.0" cy="192.0" r="6" class="open"/>
+<circle cx="346.0" cy="224.0" r="6" class="open"/>
+<text x="406.0" y="38" class="label" text-anchor="middle">C6</text>
+<rect x="388" y="46" width="36" height="196" rx="8" class="body"/>
+<circle cx="406.0" cy="64.0" r="6" class="open"/>
+<circle cx="406.0" cy="96.0" r="6" class="closed"/>
+<circle cx="406.0" cy="128.0" r="6" class="closed"/>
+<circle cx="406.0" cy="160.0" r="6" class="closed"/>
+<circle cx="406.0" cy="192.0" r="6" class="closed"/>
+<circle cx="406.0" cy="224.0" r="6" class="open"/>
+<text x="466.0" y="38" class="label" text-anchor="middle">D6</text>
+<rect x="448" y="46" width="36" height="196" rx="8" class="body"/>
+<circle cx="466.0" cy="64.0" r="6" class="open"/>
+<circle cx="466.0" cy="96.0" r="6" class="closed"/>
+<circle cx="466.0" cy="128.0" r="6" class="closed"/>
+<circle cx="466.0" cy="160.0" r="6" class="closed"/>
+<circle cx="466.0" cy="192.0" r="6" class="open"/>
+<circle cx="466.0" cy="224.0" r="6" class="open"/>
+</svg>
