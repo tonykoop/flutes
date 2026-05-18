@@ -2,6 +2,8 @@
 
 > *150+ Native American style wooden flutes built between roughly 2018 and 2021, plus the parametric design table that produced them and the build registry that tracked them.*
 
+**Status:** L1 V5 packet/explorer scaffold. The repo contains strong historical design-table and build-registry evidence, but this Round 31 packet does not claim V5 build-ready, measured-current, or runtime-verified status until the family rows are extracted from the workbook, mapped to current CAD/DXF, and checked against physical measurements.
+
 ![Hero photo](images/00-hero-flutes.jpg)
 *A fan-out of finished Native American style wooden flutes across multiple wood species, keys, bird/fetish block styles, and lacing details — the production outcome of the parametric design table and build registry documented below.*
 
@@ -19,6 +21,17 @@ This repository combines four threads:
 Sister project to [`djembe`](https://github.com/tonykoop/djembe), [`dundun`](https://github.com/tonykoop/dundun), [`didgeridoo`](https://github.com/tonykoop/didgeridoo), and [`ashiko-drum-workshop`](https://github.com/tonykoop/ashiko-drum-workshop).
 
 Computational counterpart: the Wolfram Summer School notebook **[`Properties of a Native American Flute.nb`](https://github.com/tonykoop/WSS-2019/tree/main/Homework/Final%20Submission)** in [`WSS-2019`](https://github.com/tonykoop/WSS-2019), where the same instrument family gets treated as a computational essay rather than a shop-and-build archive.
+
+## V5 Packet Entry Points
+
+- [design.md](design.md) — Round 31 packet design intent, family split, and evidence boundaries.
+- [family-spec.csv](family-spec.csv) — multi-flute family rows with explicit acoustic-law and measurement gates.
+- [validation.csv](validation.csv) — current blockers before this becomes a build-ready V5 packet.
+- [visual-output-register.csv](visual-output-register.csv) — CAD/DXF/design-table/photo authority map.
+- [capstone-manifest.json](capstone-manifest.json) — repo-relative packet inventory for the explorer.
+- [explorer.html](explorer.html) — conservative browser explorer for issue #3.
+- [CAD/flutes_family.scad](CAD/flutes_family.scad) — minimal OpenSCAD scaffold, not a measured production model.
+- [drawings/flutes-family-layout.svg](drawings/flutes-family-layout.svg) and [drawings/flutes-family-layout.dxf](drawings/flutes-family-layout.dxf) — first-pass family split plate.
 
 ## Cultural attribution
 

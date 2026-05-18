@@ -1,0 +1,7 @@
+cut_id,family_split,part,rough_length_mm,rough_width_mm,rough_thickness_mm,status,source,notes
+CUT-001,NAF-6H-F4,body blank,TBD,TBD,TBD,measurement_required,design-table row extraction,Do not cut until workbook row is exported and checked.
+CUT-002,NAF-6H-A4,body blank,TBD,TBD,TBD,measurement_required,design-table row extraction,A4 FEM length is analysis evidence only until reconciled to workbook.
+CUT-003,NAF-6H-C5,body blank,TBD,TBD,TBD,measurement_required,design-table row extraction,High key row used to test scaling.
+CUT-004,NAF-6H,bird block,TBD,TBD,TBD,measurement_required,design-table row extraction,Flue channel and nest dimensions are critical.
+CUT-005,PVC-TRAIN-A4,pipe blank,TBD,TBD,TBD,measurement_required,stock measurement,Measure actual pipe stock first.
+CUT-006,LEGACY-SW-A4,archive-derived body,TBD,TBD,TBD,blocked,legacy CAD normalization,Requires recovered neutral CAD and design-table mapping.

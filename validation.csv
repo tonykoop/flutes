@@ -1,0 +1,9 @@
+gate_id,family_split,artifact,claim,status,method,next_action,evidence
+VAL-001,ALL,family-spec.csv,Acoustic-law and provenance columns are explicit,ready_for_validator,Run installed acoustic-law validator,Keep warnings visible for unknown-required rows,family-spec.csv
+VAL-002,ALL,visual-output-register.csv,Visual authority boundaries are explicit,ready_for_validator,Run installed visual-authority validator,Do not mark photos or renders as fabrication authority,visual-output-register.csv
+VAL-003,NAF-6H,design-table/flute-dimensions-parametric.xlsx,Workbook rows can drive packet geometry,measurement_required,Export selected rows to CSV and compare to public packet fields,Create row extraction artifact before L2 claim,design-table/flute-dimensions-parametric.xlsx
+VAL-004,NAF-6H,built registry,Historical builds validate table behavior,measurement_required,Extract non-private build IDs with key/species/result only,Keep private recipient data out of public packet,README.md
+VAL-005,NAF-6H,A4 species analysis,FEM study explains tone-color trend,analysis_only,Compare against FFT blow tests,Record measured spectra before L4 wording,analysis/wood-species-fem/
+VAL-006,PVC-TRAIN,proof flute row,PVC dimensions are known,measurement_required,Measure stock ID/wall and update family row,Do not port wooden table directly to PVC,sourcing.csv
+VAL-007,LEGACY-SW,archive CAD,Legacy SolidWorks can become V5 CAD,blocked,Recover selected model and export reviewed neutral geometry,Map model constants to design-table rows,legacy/archive-2018/native-style-flutes/
+VAL-008,EXPLORER,explorer.html,Explorer is present and conservative,ready_for_review,Open locally or serve via static server,Keep status as scaffold until measurement gates close,explorer.html

@@ -1,0 +1,11 @@
+parameter_id,family_split,parameter,value,unit,status,source,notes
+DT-001,NAF-6H,target_fundamental,TBD,Hz,measurement_required,design-table/flute-dimensions-parametric.xlsx,Select key-specific row before release.
+DT-002,NAF-6H,bore_inner_diameter,TBD,mm,measurement_required,design-table/flute-dimensions-parametric.xlsx,A4 FEM row cites 15.2 mm but packet needs workbook extraction.
+DT-003,NAF-6H,wall_thickness,TBD,mm,measurement_required,design-table/flute-dimensions-parametric.xlsx,A4 FEM row cites 5.1 mm for analysis geometry.
+DT-004,NAF-6H,physical_chamber_length,TBD,mm,measurement_required,design-table/flute-dimensions-parametric.xlsx,Must distinguish effective and physical length.
+DT-005,NAF-6H,slow_air_chamber_length,TBD,mm,measurement_required,design-table/flute-dimensions-parametric.xlsx,Critical voicing parameter.
+DT-006,NAF-6H,true_sound_hole_width,TBD,mm,measurement_required,design-table/flute-dimensions-parametric.xlsx,Critical voicing parameter.
+DT-007,NAF-6H,flue_depth,TBD,mm,measurement_required,design-table/flute-dimensions-parametric.xlsx,README notes about 0.035 inches historical rule; extract exact row.
+DT-008,NAF-6H,flue_width,TBD,mm,measurement_required,design-table/flute-dimensions-parametric.xlsx,README notes about half-bore historical rule; extract exact row.
+DT-009,PVC-TRAIN,stock_inner_diameter,TBD,mm,measurement_required,physical_measurement,Measure actual pipe.
+DT-010,PVC-TRAIN,stock_wall_thickness,TBD,mm,measurement_required,physical_measurement,Measure actual pipe.

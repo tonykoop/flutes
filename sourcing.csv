@@ -1,0 +1,7 @@
+source_id,family_split,item,preferred_source,status,last_checked,notes
+SRC-001,NAF-6H,Hardwood blanks,existing shop or lumber supplier,unverified_current_supplier,TBD,Do not claim current price or availability from historical builds.
+SRC-002,NAF-6H,Western red cedar blank,existing shop or lumber supplier,unverified_current_supplier,TBD,FEM study treats cedar as warm/forgiving but current stock must be measured.
+SRC-003,NAF-6H,Black walnut blank,existing shop or lumber supplier,unverified_current_supplier,TBD,FEM study treats walnut as balanced; dimensions still come from workbook extraction.
+SRC-004,NAF-6H,Hard maple blank,existing shop or lumber supplier,unverified_current_supplier,TBD,FEM study treats maple as brighter/demanding; high failure risk needs validation.
+SRC-005,PVC-TRAIN,PVC pipe stock,local hardware supplier,needs_current_check,TBD,Measure actual ID rather than trusting nominal pipe size.
+SRC-006,ALL,Reference lineage,Blue Bear Flutes public videos,reference_only,TBD,Craft lineage acknowledged; not dimensional authority for this V5 packet.

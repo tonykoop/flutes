@@ -1,0 +1,53 @@
+{
+  "packet_dir": ".",
+  "title": "Flutes V5 Packet Scaffold",
+  "issue": "tonykoop/flutes#3",
+  "round": "31",
+  "updated": "2026-05-18",
+  "readiness": {
+    "label": "L1_packet_v5_explorer_scaffold",
+    "build_ready": false,
+    "measurement_status": "unknown_required_measurement_gates_open",
+    "summary": "Multi-flute packet scaffold with explicit family split. Historical workbook and build-registry evidence exist, but selected rows still need extraction and measurement before V5 build-packet candidate wording."
+  },
+  "family_splits": [
+    "historical_wooden_naf",
+    "pvc_training_flute",
+    "legacy_solidworks_archive",
+    "songbook_support"
+  ],
+  "files_included": [
+    "README.md",
+    "design.md",
+    "family-spec.csv",
+    "bom.csv",
+    "sourcing.csv",
+    "cut-list.csv",
+    "validation.csv",
+    "risks.md",
+    "drawing-brief.md",
+    "photo-shotlist.md",
+    "visual-output-register.csv",
+    "CAD/design-table-seed.csv",
+    "CAD/flutes_family.scad",
+    "CAD/mcp-session-log.md",
+    "drawings/flutes-family-layout.svg",
+    "drawings/flutes-family-layout.dxf",
+    "explorer.html",
+    "design-table/flute-dimensions-parametric.xlsx",
+    "analysis/wood-species-fem/README.md",
+    "learn-to-play/naf-6hole/README.md"
+  ],
+  "authority_register": "visual-output-register.csv",
+  "stash_catalog_check": {
+    "catalog": "/tmp/tonykoop-stash-catalog-20260518/explorer-and-capstone.tsv",
+    "result": "flutes had a stashed untracked explorer.html from repo-hygiene-20260518-after-lock-clean; it was inspected as a legacy scan and left preserved in the stash because this lane needed a Round 31 issue #3 family-split scaffold."
+  },
+  "remaining_unknowns": [
+    "Selected workbook rows must be exported into public CSV form.",
+    "At least one built flute per selected key needs measured fundamental and hole tuning.",
+    "PVC proof row requires actual stock measurement before geometry is computed.",
+    "Legacy SolidWorks models need normalization and mapping to design-table parameters.",
+    "Future MCP-generated V5 assets need real session IDs in CAD/mcp-session-log.md."
+  ]
+}
