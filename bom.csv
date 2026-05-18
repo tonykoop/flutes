@@ -1,0 +1,7 @@
+item_id,family_split,item,quantity,status,source_status,notes
+BOM-001,NAF-6H,Design-table selected hardwood blank,1 per flute,measurement_required,in_repo_workbook,Species and blank dimensions must come from extracted workbook row.
+BOM-002,NAF-6H,Bird or fetish block blank,1 per flute,measurement_required,in_repo_workbook,Block geometry and flue track must be mapped to design-table fields.
+BOM-003,NAF-6H,Lacing or block retention material,1 set,optional,unverified_current_supplier,Historical photos show variants; current supplier not checked.
+BOM-004,PVC-TRAIN,PVC pipe stock,1 length,measurement_required,needs_current_check,Actual ID and wall thickness control geometry.
+BOM-005,ALL,Tuner and measurement setup,1,required,measurement_required,Needed for fundamental and finger-hole tuning validation.
+BOM-006,ALL,Calipers and bore gauges,1 set,required,measurement_required,Needed to compare workbook/CAD dimensions to physical builds.

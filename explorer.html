@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flutes V5 Explorer Scaffold</title>
+<style>
+:root{--ink:#211a14;--paper:#fffdf8;--line:#d8c8ad;--wood:#5a371f;--blue:#27496d;--warn:#9a6618;--block:#9a342a;--ok:#287043}
+*{box-sizing:border-box}
+body{margin:0;background:#f6efe3;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.5}
+header{background:var(--wood);color:white;padding:16px 28px;border-bottom:4px solid #c79643}
+header h1{font-size:24px;margin:0;font-family:Georgia,serif}
+header p{margin:4px 0 0;color:#f3e9d8}
+main{max-width:1120px;margin:0 auto;padding:24px}
+section{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:18px;margin:0 0 16px}
+h2{font-family:Georgia,serif;color:var(--wood);margin:0 0 10px}
+.status{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.pill{font-size:12px;text-transform:uppercase;letter-spacing:.04em;border-radius:999px;padding:4px 10px;border:1px solid currentColor}
+.warn{color:var(--warn);background:#fff5df}.block{color:var(--block);background:#fae4df}.ok{color:var(--ok);background:#e5f0e7}.blue{color:var(--blue);background:#e7edf5}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+th{background:#efe3cf;color:#3b281a}
+code{background:#efe7d8;padding:1px 4px;border-radius:3px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.card{border:1px solid var(--line);border-radius:6px;padding:12px;background:#fffaf0}
+a{color:var(--blue)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Flutes V5 Explorer Scaffold</h1>
+  <p>Round 31 issue #3 · multi-flute family split with unknown-required-measurement gates</p>
+</header>
+<main>
+  <section>
+    <h2>Status</h2>
+    <p>This explorer promotes the repo toward V5 packet review without claiming build-ready geometry. Historical workbook, photos, archive CAD, songbook assets, and FEM analysis are valuable evidence, but selected family rows still need extraction and measurement before L2+ wording.</p>
+    <div class="status">
+      <span class="pill blue">L1 packet scaffold</span>
+      <span class="pill warn">V5 explorer candidate</span>
+      <span class="pill block">Not build-ready</span>
+      <span class="pill block">Measurement gates open</span>
+      <span class="pill ok">Visual register added</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Family Split</h2>
+    <table>
+      <tr><th>Family</th><th>Role</th><th>Gate</th></tr>
+      <tr><td><code>NAF-6H</code></td><td>Historical six-hole Native American style wooden flutes</td><td>Extract workbook rows and compare to built flute measurements.</td></tr>
+      <tr><td><code>PVC-TRAIN</code></td><td>PVC proof/training flute lane</td><td>Measure actual pipe stock before computing geometry.</td></tr>
+      <tr><td><code>LEGACY-SW</code></td><td>Archived SolidWorks normalization lane</td><td>Recover selected model and map parameters back to the design table.</td></tr>
+      <tr><td><code>SONGBOOK</code></td><td>Learn-to-play support</td><td>Keep playability docs separate from fabrication authority.</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Packet Files</h2>
+    <div class="grid">
+      <div class="card"><strong>Design</strong><br><a href="design.md">design.md</a></div>
+      <div class="card"><strong>Family spec</strong><br><a href="family-spec.csv">family-spec.csv</a></div>
+      <div class="card"><strong>Validation</strong><br><a href="validation.csv">validation.csv</a></div>
+      <div class="card"><strong>Visual authority</strong><br><a href="visual-output-register.csv">visual-output-register.csv</a></div>
+      <div class="card"><strong>CAD scaffold</strong><br><a href="CAD/flutes_family.scad">CAD/flutes_family.scad</a></div>
+      <div class="card"><strong>Family plate</strong><br><a href="drawings/flutes-family-layout.svg">SVG</a> · <a href="drawings/flutes-family-layout.dxf">DXF</a></div>
+      <div class="card"><strong>Manifest</strong><br><a href="capstone-manifest.json">capstone-manifest.json</a></div>
+      <div class="card"><strong>Provenance</strong><br><a href="CAD/mcp-session-log.md">CAD/mcp-session-log.md</a></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Authority Boundary</h2>
+    <p>Only CAD, DXF, design tables, measured templates, or reviewed drawings can control fabrication. The current OpenSCAD and DXF are scaffolds that route the family split and name measurement gates. Photos and screenshots are reference-only.</p>
+  </section>
+
+  <section>
+    <h2>Next Measurements</h2>
+    <table>
+      <tr><th>Gate</th><th>Next action</th></tr>
+      <tr><td>Workbook extraction</td><td>Export F4, A4, C5, and proof rows into public CSV form.</td></tr>
+      <tr><td>Built flute check</td><td>Record fundamental and six finger-hole notes for at least one selected built flute.</td></tr>
+      <tr><td>PVC proof</td><td>Measure stock ID/wall thickness before geometry is computed.</td></tr>
+      <tr><td>Legacy CAD</td><td>Normalize one selected SolidWorks model into reviewed neutral geometry.</td></tr>
+    </table>
+  </section>
+</main>
+</body>
+</html>

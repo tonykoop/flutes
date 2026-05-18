@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720">
+  <rect width="1100" height="720" fill="#fbfaf6"/>
+  <text x="48" y="58" font-family="Arial" font-size="30" fill="#2c2118">Flutes Family Split Scaffold</text>
+  <text x="48" y="88" font-family="Arial" font-size="15" fill="#5f5248">Round 31 V5 explorer candidate - family routing only, not cut-ready geometry</text>
+
+  <g transform="translate(60 145)">
+    <rect x="0" y="0" width="300" height="410" fill="#efe4d0" stroke="#6f543a" stroke-width="2"/>
+    <text x="22" y="40" font-family="Arial" font-size="22" fill="#2c2118">NAF-6H</text>
+    <text x="22" y="70" font-family="Arial" font-size="14" fill="#5f5248">Historical wooden 6-hole NAF family</text>
+    <line x1="36" y1="215" x2="264" y2="215" stroke="#3d2a1b" stroke-width="20" stroke-linecap="round"/>
+    <circle cx="95" cy="215" r="7" fill="#fbfaf6" stroke="#3d2a1b"/>
+    <circle cx="125" cy="215" r="7" fill="#fbfaf6" stroke="#3d2a1b"/>
+    <circle cx="155" cy="215" r="7" fill="#fbfaf6" stroke="#3d2a1b"/>
+    <circle cx="185" cy="215" r="7" fill="#fbfaf6" stroke="#3d2a1b"/>
+    <circle cx="215" cy="215" r="7" fill="#fbfaf6" stroke="#3d2a1b"/>
+    <circle cx="245" cy="215" r="7" fill="#fbfaf6" stroke="#3d2a1b"/>
+    <text x="22" y="322" font-family="Arial" font-size="14" fill="#5f5248">Gate: extract workbook rows and measure built flute tuning.</text>
+  </g>
+
+  <g transform="translate(400 145)">
+    <rect x="0" y="0" width="300" height="410" fill="#e9eef3" stroke="#3c5d76" stroke-width="2"/>
+    <text x="22" y="40" font-family="Arial" font-size="22" fill="#1b2f3d">PVC-TRAIN</text>
+    <text x="22" y="70" font-family="Arial" font-size="14" fill="#4e6576">Training/proof-flute family</text>
+    <line x1="36" y1="215" x2="264" y2="215" stroke="#677782" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="118" cy="215" r="7" fill="#fbfaf6" stroke="#394b56"/>
+    <circle cx="148" cy="215" r="7" fill="#fbfaf6" stroke="#394b56"/>
+    <circle cx="178" cy="215" r="7" fill="#fbfaf6" stroke="#394b56"/>
+    <circle cx="208" cy="215" r="7" fill="#fbfaf6" stroke="#394b56"/>
+    <text x="22" y="322" font-family="Arial" font-size="14" fill="#4e6576">Gate: measure actual pipe stock before computing dimensions.</text>
+  </g>
+
+  <g transform="translate(740 145)">
+    <rect x="0" y="0" width="300" height="410" fill="#f1ebf3" stroke="#624c70" stroke-width="2"/>
+    <text x="22" y="40" font-family="Arial" font-size="22" fill="#33213d">LEGACY-SW</text>
+    <text x="22" y="70" font-family="Arial" font-size="14" fill="#67536e">Archive CAD normalization lane</text>
+    <rect x="50" y="185" width="200" height="58" rx="8" fill="#d7c7dd" stroke="#624c70"/>
+    <text x="75" y="220" font-family="Arial" font-size="16" fill="#33213d">SolidWorks archive</text>
+    <text x="22" y="322" font-family="Arial" font-size="14" fill="#67536e">Gate: recover selected model and map dimensions to design table.</text>
+  </g>
+
+  <rect x="60" y="590" width="980" height="70" fill="#fff6dc" stroke="#b4872f"/>
+  <text x="82" y="622" font-family="Arial" font-size="16" fill="#5b3f0f">Authority note</text>
+  <text x="82" y="648" font-family="Arial" font-size="14" fill="#5b3f0f">This plate is a family split scaffold. It does not provide hole stations, toolpaths, or cut-ready dimensions.</text>
+</svg>

@@ -1,0 +1,7 @@
+artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,fabrication_required,notes
+CAD-001,CAD/flutes_family.scad,cad,fabrication_geometry,fabrication,,derived_from_authority,true,Scaffold CAD with placeholder A4 analysis dimensions; not a measured production model.
+DT-001,CAD/design-table-seed.csv,design_table,design_table,fabrication,,derived_from_authority,true,Seed table names required parameters and measurement gates before workbook row extraction.
+DXF-001,drawings/flutes-family-layout.dxf,dxf,cut_layout,fabrication,CAD-001;DT-001,derived_from_authority,true,Scaffold DXF documents family lanes only; notes explicitly forbid cut-ready use.
+SVG-001,drawings/flutes-family-layout.svg,svg_preview,derived_preview,derived_preview,DXF-001;CAD-001,derived_from_authority,false,Human-readable family split preview.
+IMG-001,images/00-hero-flutes.jpg,photo_reference,photo_reference,reference_only,,none,false,Finished flute photo documents historical build practice but does not control dimensions.
+IMG-002,design-table/flute-design-table.png,photo_reference,photo_reference,reference_only,,none,false,Workbook screenshot helps orientation; live workbook extraction remains required.
