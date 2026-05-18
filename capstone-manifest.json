@@ -40,7 +40,7 @@
   ],
   "authority_register": "visual-output-register.csv",
   "stash_catalog_check": {
-    "catalog": "/tmp/tonykoop-stash-catalog-20260518/explorer-and-capstone.tsv",
+    "catalog": "manager stash catalog: tonykoop-stash-catalog-20260518/explorer-and-capstone.tsv",
     "result": "flutes had a stashed untracked explorer.html from repo-hygiene-20260518-after-lock-clean; it was inspected as a legacy scan and left preserved in the stash because this lane needed a Round 31 issue #3 family-split scaffold."
   },
   "remaining_unknowns": [
