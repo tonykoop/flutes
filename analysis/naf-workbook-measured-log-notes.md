@@ -39,6 +39,19 @@ fundamental plus six-hole tuning trace for each selected key.
 - CAD/DXF, cut lists, or V5 tuning claims still require a current measured
   flute row with fundamental and finger-hole tuning evidence.
 
+## Local Validation
+
+Run this guard after editing the public extraction or comparison tables:
+
+```bash
+python3 scripts/check_public_naf_comparison.py
+```
+
+The check keeps the F4/A4/C5 public rows aligned with the comparison rows,
+rejects local filesystem path leaks, rejects private/public-hostile CSV
+headers, and confirms the family-spec rows still point at the public extract
+while staying `measurement_required`.
+
 ## Private or Summarized Data
 
 The following workbook fields were inspected only to produce public aggregates
