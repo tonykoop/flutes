@@ -1,0 +1,162 @@
+{
+    "asset": {
+        "generator": "SOLIDWORKSGLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "Default",
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                -0.8047435793939222,
+                0.01911782579665927,
+                0.5933146552724504,
+                0.0,
+                0.28102883551479163,
+                0.8926529745671682,
+                0.35241092577499183,
+                0.0,
+                -0.5228867611954411,
+                0.45033895649076955,
+                -0.7237294102310246,
+                0.0,
+                -1.2764631651528546,
+                1.099360573749508,
+                -1.7667571685801755,
+                1.0
+            ],
+            "camera": 0,
+            "name": "current camera"
+        },
+        {
+            "mesh": 0,
+            "name": "Native Flute Alpha"
+        }
+    ],
+    "cameras": [
+        {
+            "type": "orthographic",
+            "orthographic": {
+                "xmag": 0.5355422861454949,
+                "ymag": 0.413828130203337,
+                "zfar": 3.054262920078555,
+                "znear": 2.134645601119927
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 10032,
+            "type": "SCALAR",
+            "min": [
+                0
+            ],
+            "max": [
+                4563
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4564,
+            "type": "VEC3",
+            "min": [
+                -0.30480000376701355,
+                -0.019050000235438347,
+                -0.019050000235438347
+            ],
+            "max": [
+                0.30480000376701355,
+                0.019050000235438347,
+                0.019050000235438347
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4564,
+            "type": "VEC3",
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "defaultplastic",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.7817506899134391,
+                    0.7817506899134391,
+                    0.7817506899134391,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.1899999998509884
+            }
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 40128,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 40128,
+            "byteLength": 54768,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 94896,
+            "byteLength": 54768,
+            "byteStride": 12,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "Native Flute Alpha.bin",
+            "byteLength": 149664
+        }
+    ]
+}

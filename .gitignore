@@ -1,7 +1,16 @@
-# macOS / Windows
+# flutes — .gitignore
+# Stash-recovered 2026-05-23.
+
+# OS noise
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
 
 # SolidWorks lock + backup files
 *.~*
@@ -9,20 +18,35 @@ desktop.ini
 *.bak
 *.SLDBAK
 
-# Editors
-.vscode/
-.idea/
+# Sentinel test files (write-permission probes)
+.test-write
+**/.test-write
 
-# Photo working files (keep curated exports, not raw working files)
+# Photo working files
 *.psd
 *.lrcat
 *.lrcat-journal
+*.xmp
 
-# A folder for raw camera files you don't want committed
+# Raw camera files
+*.cr2
+*.CR2
+*.nef
+*.NEF
+*.dng
+*.DNG
+
+# Video
+*.mov
+*.MOV
+*.mp4
+*.MP4
+
+# Stash-recovery sidecars
+stash-recovered-*/
+
+# Pack-and-Go archives
+*.7z
+
+# Local-only folder convention
 /raw/
-
-# Acoustics / FEA solver scratch files
-*.cdb
-*.rst
-*.lock
-abaqus_acis.log
