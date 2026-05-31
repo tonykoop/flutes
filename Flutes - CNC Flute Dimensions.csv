@@ -1,0 +1,109 @@
+,,Piano Key #,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,Notes
+,Variable Name,Fundamental/Base Note,B3,C 4,Db 4,D 4,Eb 4,E 4,F4,Gb 4,G 4,Ab 4,A 4,Bb 4,B 4,C 5,Db 5,D 5,
+Pentatonic Minor Scale: 3-2-2-3-2,,Fundamental Frequency (Hertz),246.9,261.6,277.2,293.7,311.1,329.6,349.2,370.0,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,
+,,Hole 1 Note,D4,Eb 4,E4,F4,Gb4,G4,Ab4,A4,Bb4,B4,C5,Db5,D5,Eb 5,E5,F5,
+,,Hole 1 Frequency,293.7,311.1,329.6,349.2,370.0,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,
+,,Hole 2 Note,E4,F4,Gb4,G4,Ab4,A4,Bb4,B4,C5,Db5,D5,Eb5,E5,F5,Gb5,G5,
+,,Hole 2 Frequency,329.6,349.2,370.0,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,
+,,Hole 3 Note,Gb4,G4,Ab4,A4,Bb4,B4,C5,Db5,D5,Eb5,E5,F5,Gb 5,G5,Ab5,A5,
+,,Hole 3 Frequency,370.0,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,830.6,880.0,
+,,Hole 4 Note,G4,Ab4,A4,Bb4,B4,C5,Db5,D5,Eb5,E5,F5,Gb5,G5,Ab5,A5,Bb5,
+,,Hole 4 Frequency,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,830.6,880.0,932.3,
+,,Hole 5 Note,A4,Bb 4,B4,C5,Db5,D5,Eb5,E5,F5,Gb5,G5,Ab5,A5,Bb 5,B5,C6,
+,,Hole 5 Frequency,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,830.6,880.0,932.3,987.8,1046.5,
+,,Hole 6 Note,B4,C5,Db5,D5,Eb5,E5,F5,Gb5,G5,Ab5,A5,Bb5,B5,C6,Db5,D6,
+,,Hole 6 Frequency,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,830.6,880.0,932.3,987.8,1046.5,1108.7,1174.7,
+,,,,,,,,,,,,,,,,,,,
+User Selected Inputs & Variables,A,Mouth Piece Length,2.63,2.63,2.50,2.50,2.38,2.38,2.25,2.25,2.13,2.13,2.00,2.00,1.88,1.75,1.63,1.50,Guide a
+,G,Mouth Piece Diameter,5/16,5/16,5/16,5/16,9/32,9/32,9/32,9/32,9/32,9/32,1/4,1/4,1/4,1/4,1/4,1/4,"3/8"" is too big and less than 1/4"" is too small"
+,B,Short Chamber Length,4.38,4.25,4.125,4.00,3.75,3.75,3.625,3.50,3.375,3.25,3.125,3.00,2.875,2.75,2.625,2.50,"Smallest is 2.5 inches, it may be nice to increase these lengths"
+,C,Spacing Length,1.00,1.00,1.00,0.875,0.875,0.875,0.875,0.750,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,"Test with CNC to see if smaller flutes could handle a .625"" or .50"" spacing"
+,E,Extra Length (to fit depth of chuck jaws),1.50,1.50,1.50,1.50,1.50,1.50,1.50,1.50,1.50,1.50,1.50,1.50,1.50,1.50,1.50,1.50,Double check the depth of jaws required for the coresponding flute diameter
+,F,Bore ID,1.000,1.000,0.938,0.938,0.875,0.875,0.818,0.818,0.750,0.750,0.688,0.688,0.625,0.625,0.563,0.563,Smallest flutes may want to increase bore ID. 
+,T,Wall Thickness ~ Appx 1/3 of Bore ID,0.225,0.225,0.225,0.225,0.225,0.225,0.200,0.200,0.200,0.200,0.188,0.188,0.188,0.188,0.188,0.188,"Test these numbers, see how durable the flutes feel. Change if they need more or less thickness, .30 is probably too thick and probably don't want to go thinner than 0.1875"""
+,U,Flue Depth,0.035,0.035,0.035,0.035,0.035,0.035,0.035,0.035,0.035,0.035,0.035,0.035,0.035,0.035,0.035,0.035,"Might want to test as low as .020"" and as large as .050"""
+,V,Flue Width ~ Appx 1/2 of Bore ID or less,0.500,0.500,0.469,0.469,0.438,0.438,0.409,0.409,0.375,0.375,0.344,0.344,0.313,0.313,0.281,0.281,"Need to do some testing on flue width. 0.5"" is probably too big "
+,W,Sound Hole Length,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.225,0.225,0.225,0.225,0.225,0.225,0.225,0.225,Double check some of these numbers against good sounds flutes from inventory
+,,Removed from Diameter by Turning,0.300,0.300,0.363,0.363,0.175,0.175,0.282,0.282,0.350,0.350,0.188,0.188,0.250,0.250,0.313,0.313,"Check these numbers, it may be wasting wood to remove .35"" and it may be removing too little to only remove .175"""
+,N,Hole 1 Diameter,0.425,0.425,0.400,0.400,0.375,0.375,0.350,0.350,0.325,0.325,0.300,0.300,0.275,0.275,0.250,0.250,"Start with every finger hole at 0.25"", then make several of one key and tune them with hot iron rods, then take an average for those hole sizes. Try to keep finger hole sizes between .25"" and .45"""
+,O,Hole 2 Diameter,0.425,0.425,0.400,0.400,0.375,0.375,0.350,0.350,0.325,0.325,0.300,0.300,0.275,0.275,0.250,0.250,
+,P,Hole 3 Diameter,0.425,0.425,0.400,0.400,0.375,0.375,0.350,0.350,0.325,0.325,0.300,0.300,0.275,0.275,0.250,0.250,
+,Q,Hole 4 Diameter,0.425,0.425,0.400,0.400,0.375,0.375,0.350,0.350,0.325,0.325,0.300,0.300,0.275,0.275,0.250,0.250,
+,R,Hole 5 Diameter,0.425,0.425,0.400,0.400,0.375,0.375,0.350,0.350,0.325,0.325,0.300,0.300,0.275,0.275,0.250,0.250,
+,S,Hole 6 Diameter,0.425,0.425,0.400,0.400,0.375,0.375,0.350,0.350,0.325,0.325,0.300,0.300,0.275,0.275,0.250,0.250,
+,,Hole 1 Distance from End,7.200,6.600,6.014,5.764,5.526,4.845,4.638,4.441,3.894,3.723,3.560,3.232,3.088,2.951,2.821,2.318,Starting points given from Flutopedia NAF Calculator. Make Prototypes and Adjust as neccesary. These numbers should actually measure distance from Sound Hole
+,,Hole 2 Distance from End,9.100,8.440,7.770,7.405,7.060,6.335,6.032,5.738,5.165,4.910,4.670,4.335,4.120,3.917,3.725,3.175,
+,,Hole 3 Distance from End,10.900,10.284,9.527,9.046,8.589,7.821,7.418,7.038,6.439,6.102,5.784,5.436,5.151,4.882,4.628,4.033,
+,,Hole 4 Distance from End,13.300,12.459,11.629,11.077,10.554,9.335,8.878,8.446,7.642,7.261,6.899,6.308,5.989,5.687,5.400,4.742,
+,,Hole 5 Distance from End,14.200,13.885,12.940,12.302,11.698,10.480,9.950,9.450,8.620,8.175,7.753,7.150,6.780,6.425,6.090,5.430,
+,,Hole 6 Distance from End,15.400,15.312,14.252,13.527,12.840,11.624,11.019,10.448,9.593,9.087,8.607,7.991,7.565,7.163,6.782,6.119,
+,,,,,,,,,,,,,,,,,,,
+Calculated/Tabulated,,Blank Length = A+B+C+D,32.50,31.44,31.76,29.14,28.99,26.26,25.78,23.04,22.79,20.89,21.30,19.36,19.51,17.24,17.54,16.40,
+,,Blank Width = 2(2*K)+.125,3.625,3.625,3.625,3.625,3.125,3.125,3.124,3.124,3.125,3.125,2.625,2.625,2.625,2.625,2.626,2.626,
+,,Blank Thickness =(E/2)+L+(H/2),0.875,0.875,0.875,0.875,0.750,0.750,0.750,0.750,0.75,0.75,0.625,0.625,0.625,0.625,0.625,0.625,
+,,Turned Diameter = E+2*L,1.450,1.450,1.388,1.388,1.325,1.325,1.218,1.218,1.150,1.150,1.125,1.125,1.000,1.000,0.938,0.938,
+,,Top Surface Area of Wood = I*J,117.813,113.975,115.124,105.620,90.585,82.078,80.538,71.981,71.206,65.284,55.902,50.811,51.218,45.259,46.048,43.073,
+,,Bd Ft of Wood =((I*J*K)/144)*2,1.432,1.385,1.399,1.284,0.944,0.855,0.839,0.750,0.742,0.680,0.485,0.441,0.445,0.393,0.400,0.374,
+,,Nest Distance from Mouthpiece,4.625,4.625,4.500,4.375,4.250,4.250,4.125,4.000,3.875,3.875,3.750,3.750,3.625,3.500,3.375,3.250,
+,,Sunken Nest Depth,0.263,0.263,0.294,0.294,0.200,0.200,0.241,0.241,0.275,0.275,0.188,0.188,0.219,0.219,0.250,0.250,
+,,Sunken Nest Width,0.750,0.750,0.750,0.750,0.750,0.750,0.750,0.750,0.688,0.688,0.688,0.688,0.625,0.625,0.563,0.563,
+,,Sunken Nest Length,4.38,4.25,4.13,4.00,3.75,3.75,3.63,3.50,3.38,3.25,3.13,3.00,2.88,2.75,2.63,2.50,
+,H,"Hole 1 Coordinate (y position after mouthpiece, short chamber & spacing)",23.80,23.34,24.24,21.87,21.96,19.92,19.64,17.10,17.39,15.67,16.24,14.62,14.92,12.79,13.21,12.58,
+,I,Hole 2 Coordinate,21.90,21.50,22.49,20.23,20.43,18.43,18.25,15.80,16.12,14.48,15.13,13.52,13.89,11.82,12.31,11.73,
+,J,Hole 3 Coordinate,20.10,19.66,20.73,18.59,18.90,16.94,16.86,14.50,14.85,13.29,14.01,12.42,12.86,10.86,11.41,10.87,
+,K,Hole 4 Coordinate,17.70,17.48,18.63,16.56,16.93,15.43,15.40,13.10,13.64,12.13,12.90,11.55,12.02,10.05,10.64,10.16,
+,L,Hole 5 Coordinate,16.80,16.06,17.32,15.33,15.79,14.28,14.33,12.09,12.67,11.22,12.04,10.71,11.23,9.32,9.95,9.47,
+,M,Hole 6 Coordinate,15.60,14.63,16.01,14.11,14.65,13.14,13.26,11.09,11.69,10.30,11.19,9.87,10.45,8.58,9.25,8.78,
+,X,Distance between Hole 1 & 2,1.90,1.84,1.76,1.64,1.53,1.49,1.39,1.30,1.27,1.19,1.11,1.10,1.03,0.97,0.90,0.86,These hole patterns are setup such that the distance between holes for the right hand are equal and distance between holes for the left hand are equal.
+,Y,Distance between Hole 2 & 3,1.80,1.84,1.76,1.64,1.53,1.49,1.39,1.30,1.27,1.19,1.11,1.10,1.03,0.97,0.90,0.86,
+,Z,Distance between Hole 3 & 4,2.40,2.18,2.10,2.03,1.97,1.51,1.46,1.41,1.20,1.16,1.12,0.87,0.84,0.81,0.77,0.71,
+,AA,Distance between Hole 4 & 5,0.90,1.43,1.31,1.23,1.14,1.15,1.07,1.00,0.98,0.91,0.85,0.84,0.79,0.74,0.69,0.69,
+,BB,Distance between Hole 5 & 6,1.20,1.43,1.31,1.23,1.14,1.14,1.07,1.00,0.97,0.91,0.85,0.84,0.79,0.74,0.69,0.69,
+,,Acoustic Length (speed of sound =13552 inches per second),27.44,25.90,24.45,23.07,21.78,20.56,19.40,18.31,17.29,16.32,15.40,14.54,13.72,12.95,12.22,11.54,
+,,K1 @ Foot End,0.333,0.333,0.313,0.313,0.292,0.292,0.273,0.273,0.250,0.250,0.229,0.229,0.208,0.208,0.188,0.188,
+,,K2 calculation= (D/E)^2((0.61+0.33)E+T) Not sure what T is supposed to be so I've entered values for T to fit values provided by the NAF CALC K2,3.50,3.50,1.50,2.50,1.00,2.50,1.60,3.00,2.00,2.80,1.25,2.20,1.00,2.25,1.00,1.20,Might be calculatable from value present in the chart. These have been fudged to make a consistent pattern with the bore volume increases
+,,Bore Cross sectional Area: (in^2) = Pi*(r^2),0.785,0.785,0.690,0.690,0.601,0.601,0.525,0.525,0.442,0.442,0.371,0.371,0.307,0.307,0.248,0.248,
+,,Bore Volume: (in^3) = Pi*(r^2)*h,18.06,17.33,15.62,13.99,12.32,10.68,9.20,7.89,6.64,5.86,5.17,4.49,3.84,3.22,2.74,2.52,
+,,Bore Volume Increase over next higher note,0.73,1.71,1.64,1.67,1.64,1.48,1.31,1.25,0.78,0.69,0.67,0.66,0.62,0.48,0.22,?,Theoretically? These should show a fairly consistent pattern
+,D,Long Chamber,23.00,22.07,22.63,20.26,20.49,17.76,17.53,15.04,15.04,13.27,13.92,12.11,12.51,10.49,11.04,10.15,"Test these lengths, adjust K2 value to compensate for correction"
+,,Long Chamber Increase over next higher note,0.93,-0.57,2.37,-0.23,2.72,0.23,2.49,0.01,1.77,-0.66,1.81,-0.41,2.02,-0.54,0.88,10.15,
+,,Lathe Chuck Jaws Set Size/#,,,,,,,,,,,8311,8311,8311,8311,8311,8311,
+,,Chamber to Bore Ratio,23:1,22.1:1,24.2:1,21.7:1,23.5:1,20.4:1,21.5:1,18.4:1,20.1:1,17.7:1,20.3:1,17.7:1,20.1:1,16.8:1,19.7:1,18.1:1,"Recommendations are to start somewhere between 18:1 and 21:1. Bigger flutes need a higher ratio, smaller flutes can tolerate a lower ratio"
+,,,,,,,,,,,,,,,,,,,
+Measured Results from Batch,,Fundamental Frequency (Hertz),,,,,,,,,,,,,,,,,"Once a batch of flutes has come off the CNC, cut them to length and measure the base note frequency. "
+,,Hole 1 Frequency,,,,,,,,,,,,,,,,,"Test the frequency of each hole before turning, it should be slightly flat or too low. Turning the flute to diameter should raise the pitch of each hole"
+,,Hole 2 Frequency,,,,,,,,,,,,,,,,,"If the note measures too high, the hole can be made smaller or moved down towards the foot of the flute. If the note measures too low, the hole can be made larger or moved towards the sound hole."
+,,Hole 3 Frequency,,,,,,,,,,,,,,,,,
+,,Hole 4 Frequency,,,,,,,,,,,,,,,,,
+,,Hole 5 Frequency,,,,,,,,,,,,,,,,,
+,,Hole 6 Frequency,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Difference from perfect,,Fundamental Frequency (Hertz),246.9,261.6,277.2,293.7,311.1,329.6,349.2,370.0,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,"If the number is negative, the flute's long chamber needs to be longer. If the number is positive, the long chamber needs to be shorter. Adjust K2 and therefore the long chamber length."
+,,Hole 1 Frequency,293.7,311.1,329.6,349.2,370.0,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,
+,,Hole 2 Frequency,329.6,349.2,370.0,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,
+,,Hole 3 Frequency,370.0,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,830.6,880.0,
+,,Hole 4 Frequency,392.0,415.3,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,830.6,880.0,932.3,
+,,Hole 5 Frequency,440.0,466.2,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,830.6,880.0,932.3,987.8,1046.5,
+,,Hole 6 Frequency,493.9,523.3,554.4,587.3,622.3,659.3,698.5,740.0,784.0,830.6,880.0,932.3,987.8,1046.5,1108.7,1174.7,
+,,,,,,,,,,,,,,,,,,,
+,,,,,Contraction,,Expansion,,,,,,,,,,,,
+,,,,Price,Min,Max,Min,Max,Spigot Length,Own,URL,,,,,,,,
+,,NOVA Infinity Bowl Jaw Series #1 - 8301,,51.99,0.63,0.906,1.339,1.614,0.354,NO,https://www.teknatool.com/products/chuck-accessories/nova-jaw-accessories/nova-infinity-accessory-jaw-bowl-jaw-series-1/,,,,,,,,
+,,NOVA Infinity Bowl Jaw Series #2 - 8302,,51.99,1.22,1.496,2.008,2.283,0.354,NO,https://www.teknatool.com/products/chuck-accessories/nova-jaw-accessories/nova-infinity-accessory-jaw-bowl-jaw-series-2/,,,,,,,,
+,,NOVA Infinity Bowl Jaw Series #3 - 8303,,51.99,1.811,2.087,2.68,2.95,0.492,YES,https://www.teknatool.com/products/chuck-accessories/nova-jaw-accessories/nova-infinity-accessory-jaw-bowl-jaw-series-3/,,,,,,,,
+,,NOVA Infinity Bowl Jaw Series #4 - 8304,,57.99,2.4,3.18,3.346,4.13,0.492,NO,https://www.teknatool.com/products/chuck-accessories/nova-jaw-accessories/nova-infinity-accessory-jaw-bowl-jaw-series-4/,,,,,,,,
+,,NOVA Infinity Bowl Jaw Series #5 - 8305,,57.99,2.992,3.77,4.016,4.803,?,NO,https://www.teknatool.com/products/chuck-accessories/nova-jaw-accessories/nova-infinity-accessory-jaw-bowl-jaw-series-5/,,,,,,,,
+,,NOVA Infinity Bowl Jaw Series #6 - 8306,,46,3.503,4.291,4.685,5.472,?,NO,https://www.teknatool.com/products/chuck-accessories/nova-jaw-accessories/nova-infinity-accessory-jaw-bowl-jaw-series-6/,,,,,,,,
+,,NOVA Infinity Bowl Jaw Series #7 - 8307,,46,4.016,4.803,5.354,6.141,1,YES,https://www.teknatool.com/products/chuck-accessories/nova-jaw-accessories/nova-infinity-accessory-jaw-bowl-jaw-series-7/,,,,,,,,
+,,NOVA Infinity Saw Tooth Jaw Series #1 - 8311-R,,41.5,1.142,1.417,1.921,2.197,1,YES,https://www.teknatool.com/products/shopnovapartsdirect/factory-refurbished/nova-infinity-accessory-jaw-saw-tooth-series-1-8311-r/,,,,,,,,
+,,NOVA Infinity Saw Tooth Jaw Series #2 - 8312-R,,41.5,1.811,2.087,2.591,2.866,1.12,NO,https://www.teknatool.com/products/shopnovapartsdirect/sale/nova-infinity-accessory-jaw-saw-tooth-series-2-8312-r/,,,,,,,,
+,,NOVA Infinity Saw Tooth Jaw Series #3 - 8313,,57.99,2.48,3.267,3.26,4.047,?,NO,https://www.teknatool.com/products/chuck-accessories/nova-jaw-accessories/nova-infinity-accessory-jaw-saw-tooth-series-3/,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,NOVA 8012 Infnity Super Infinity Quick Change Chuck,,,,,,,,,,,,,,,,,
