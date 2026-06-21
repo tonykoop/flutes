@@ -52,5 +52,16 @@
     "PVC proof row requires actual stock measurement before geometry is computed.",
     "Legacy SolidWorks models need normalization and mapping to design-table parameters.",
     "Future MCP-generated V5 assets need real session IDs in CAD/mcp-session-log.md."
-  ]
+  ],
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "woodwind/flutes/research/Flutes_Acoustic_Model.nb",
+        "cloud_path": "Musical_Instruments/woodwinds/flutes/Flutes_Acoustic_Model.nb",
+        "cloud_url": "https://www.wolframcloud.com/obj/wrfcoin/Musical_Instruments/woodwinds/flutes/Flutes_Acoustic_Model.nb",
+        "permission": "Public-Execute",
+        "kind": "other"
+      }
+    ]
+  }
 }
