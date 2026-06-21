@@ -61,6 +61,13 @@
         "cloud_url": "https://www.wolframcloud.com/obj/wrfcoin/Musical_Instruments/woodwinds/flutes/Flutes_Acoustic_Model.nb",
         "permission": "Public-Execute",
         "kind": "other"
+      },
+      {
+        "source_file": "wolfram/naf-flute-acoustics.wl",
+        "cloud_path": "pending",
+        "cloud_url": "pending",
+        "permission": "Public-Execute",
+        "kind": "acoustics-starter"
       }
     ]
   }
