@@ -2,7 +2,7 @@
 
 > *150+ Native American style wooden flutes built between roughly 2018 and 2021, plus the parametric design table that produced them and the build registry that tracked them.*
 
-**Status:** L1 V5 packet/explorer scaffold. The repo contains strong historical design-table and build-registry evidence, but this Round 31 packet does not claim V5 build-ready, measured-current, or runtime-verified status until the family rows are extracted from the workbook, mapped to current CAD/DXF, and checked against physical measurements.
+**Status:** L1 concept packet — L1 V5 packet/explorer scaffold. The repo contains strong historical design-table and build-registry evidence, but this Round 31 packet does not claim V5 build-ready, measured-current, or runtime-verified status until the family rows are extracted from the workbook, mapped to current CAD/DXF, and checked against physical measurements.
 
 ![Hero photo](images/00-hero-flutes.jpg)
 *A fan-out of finished Native American style wooden flutes across multiple wood species, keys, bird/fetish block styles, and lacing details — the production outcome of the parametric design table and build registry documented below.*
@@ -170,6 +170,7 @@ flutes/
 | CAD — nest + fetish | not yet committed |
 | CAD — jigs | not yet committed |
 | Yield analysis from build registry | forthcoming |
+| Evolution-pipeline intake | Stage 0 intake added under `evolution/` (manifest, design-intent, revisions); Gate A not yet run |
 
 Living document — the empirical core is already here; CAD exports and yield-analysis follow-ons are the main remaining additions.
 ## Learn to play
