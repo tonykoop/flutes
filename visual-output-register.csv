@@ -5,3 +5,4 @@ DXF-001,drawings/flutes-family-layout.dxf,dxf,cut_layout,fabrication,CAD-001;DT-
 SVG-001,drawings/flutes-family-layout.svg,svg_preview,derived_preview,derived_preview,DXF-001;CAD-001,derived_from_authority,false,Human-readable family split preview.
 IMG-001,images/00-hero-flutes.jpg,photo_reference,photo_reference,reference_only,,none,false,Finished flute photo documents historical build practice but does not control dimensions.
 IMG-002,design-table/flute-design-table.png,photo_reference,photo_reference,reference_only,,none,false,Workbook screenshot helps orientation; live workbook extraction remains required.
+WL-001,wolfram/naf-flute-acoustics.wl,wolfram_source,analysis_source,derived_preview,DT-001,source_only,false,Wolfram NAF acoustics model; source-only (not executed). L2 evidence — no fabrication authority.

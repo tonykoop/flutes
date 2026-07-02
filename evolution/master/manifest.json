@@ -1,0 +1,42 @@
+{
+  "product": "flutes",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "CAD/flutes_family.scad",
+      "format": "openscad-source",
+      "sha256": "da8ef2fa96771d89ffb48a29936026cc3f3fe4fb7997d9f78b5e01fbb8e4db68",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Family-layout scaffold CAD with placeholder A4 analysis dimensions; renders clean in OpenSCAD. Not a measured production model."
+    },
+    {
+      "path": "wolfram/naf-flute-acoustics.wl",
+      "format": "wolfram-source",
+      "sha256": "29a15aa86d0b5d2fbbc56a12a36c959f8f35134997f0f8651a41f4d70fef1887",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "NAF acoustics model; source-only (not executed). L2 evidence."
+    },
+    {
+      "path": "CAD/design-table-seed.csv",
+      "format": "design-table-seed",
+      "sha256": "6ed4ceb9d774c4f560a766ce802a76e79e68c5fdd5b87be7ef8ca6b55cc04e46",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Seed table names required parameters + measurement gates before workbook row extraction."
+    },
+    {
+      "path": "Flutes.xlsx",
+      "format": "design-table",
+      "sha256": "3a58014cc2f502797e02126382682203d9d7711faf644c904f6b40cbbbca840d",
+      "authority": "fabrication",
+      "lossy": false,
+      "notes": "Historical parametric workbook; measurement-gated. Family rows require extraction + current measured-tuning checks before CAD/DXF authority."
+    }
+  ],
+  "notes": "L1 concept scaffold. OpenSCAD source + seed table + historical workbook are the current masters; no STEP export yet (legacy SolidWorks archive under legacy/ not normalized; Windows-side, out of scope). Gate A (Alpha workspace compile) not yet run."
+}
